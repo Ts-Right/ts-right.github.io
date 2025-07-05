@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><sty
+le>
+body {font-family: "Roboto", sans-serif}
+.w3-bar-block .w3-bar-item {
+padding: 16px;
+font-weight: bold;
+}
+</style>
+<body>
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card"
+style="z-index:3;width:250px;" id="mySidebar">
+<a class="w3-bar-item w3-button w3-border-bottom w3-large" href="#"><h2>Hello,
+World!</h2><!-- <img src="https://www.w3schools.com/images/w3schools.png"
+style="width:80%;"></a> -->
+<a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)"
+onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
+<a class="w3-bar-item w3-button w3-teal" href="#">ホーム</a>
+<a class="w3-bar-item w3-button" href="#">Hello,</a>
+<a class="w3-bar-item w3-button" href="#"> World</a>
+<a class="w3-bar-item w3-button" href="#"> everyone!</a>
+<!-- <a class="w3-bar-item w3-button" href="#">Link 4</a> -->
+<!-- <a class="w3-bar-item w3-button" href="#">Link 5</a> -->
+<div>
+<a class="w3-bar-item w3-button" onclick="myAccordion('demo')" href="javascript:void(0)">こ
+れは何だ? <i class="fa fa-caret-down"></i></a>
+<div id="demo" class="w3-hide">
+<a class="w3-bar-item w3-button" href="#">You</a>
+<a class="w3-bar-item w3-button" href="#"> found</a>
+<a class="w3-bar-item w3-button" href="#"> it!</a>
+</div>
+</div>
+</nav>
+
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()"
+style="cursor:pointer" id="myOverlay"></div>
+<div class="w3-main" style="margin-left:250px;">
+<div id="myTop" class="w3-container w3-top w3-theme w3-large">
+<p><i class="fa fa-bars w3-button w3-teal w3-hide-large w3-xlarge" onclick="w3_open()"></i>
+<span id="myIntro" class="w3-hide">NeoBlueL1ght's web site!</span></p>
+</div>
+<header class="w3-container w3-theme" style="padding:64px 32px">
+<h1 class="w3-xxxlarge">This is NeoBlueL1ght's web site!</h1>
+</header>
+<div class="w3-container" style="padding:32px">
+<h2>自己紹介</h2>
+<!-- <p></p> -->
+<ul class="w3-leftbar w3-theme-border" style="list-style:none">
+<li>名前 : 知ってると思う</li>
+<li>好きな人 : 稲ーよD</li>
+<li>好きな教科 : ギガタブを使うなら何でも。</li>
+<li>嫌いすぎる教科 : <b>数学</b></li>
+<li>好きなこと : パソコン、ゲーム</li>
+<li>好きなゲーム : 1. Splatoon 2. Minecraft 3. Among Us 4. 敦盛</li>
+</ul>
+<br>
+<!-- <img src="img_responsive.png" style="width:100%" alt="Responsive"> -->
+<!-- 企業にばれる可能性があるため -->
+<!-- <hr>
+<h2>Q&amp;Aコーナー 1.どうやって作ったの?</h2>
+<p>Github Pagesを使って</p> -->
+<hr>
+<h2>便利webたち</h2>
+<!-- <div class="w3-container w3-sand w3-leftbar"> -->
+<p><h3><a href="https://copilot.microsoft.com/" target="_blank" class="w3-button
+w3-padding-large w3-dark-grey" style="width:45.5%">Microsoft Copilot</a><h5>Microsoft社が
+運営している業務効率向きのAI。</h5></h3><br><h3><a
+href="https://caiorss.github.io/bookmarklet-maker/" target="_blank" class="w3-button
+w3-padding-large w3-dark-grey" style="width:45.5%">Bookmarklet Maker</a><h5>Githubユー
+
+ザーcaiorssさんが作ったツール。</h5></h3><br><h3><a
+href="https://experiments.turbowarp.org" target="_blank" class="w3-button w3-padding-large
+w3-dark-grey" style="width:45.5%">Turbowarp Experiments</a><h5>実験機能が搭載された
+Scratchの亜種Turbowarp。Javascriptをコンパイルして高速化しているらしい。
+</h5></h3><br><h3><a href="https://penguinmod.com" target="_blank" class="w3-button
+w3-padding-large w3-dark-grey" style="width:45.5%">PenguinMod</a><h5>Turbowarpよりもっと
+早いと言われている。</h5></h3><br><h3><a href="https://www.steamcollection.com"
+target="_blank" class="w3-button w3-padding-large w3-dark-grey" style="width:45.5%">蒸汽工
+坊</a><h5>中国語でームワークショップ。じょうきこうぼうって言いたくなる。Scratchの中国版適な
+やつ。</h5></h3><br><!-- <i>ITALIC</i> --><br><br>
+</p>
+<!-- </div> -->
+<hr>
+<h2>Q&amp;Aコーナー</h2>
+<!-- <p>We have created some responsive W3CSS templates for you to use.</p> -->
+<!-- <p>You are free to modify, save, share, use or do whatever you want with them:</p> -->
+<div class="w3-panel w3-light-grey w3-padding-16 w3-card">
+<h3 class="w3-center">1.「好きな人教えろ」 by Mさん</h3>
+<div class="w3-content" style="max-width:800px"><h4>嫌だけど、Dとどっかもう一人いる</h4>
+<br>
+<div class="w3-row">
+<div class="w3-col m6">
+<!-- <a href="" target="_blank" class="w3-button w3-padding-large w3-dark-grey"
+style="width:98.5%">Button 1</a> -->
+</div>
+<div class="w3-col m6">
+<!-- <a href="" target="_blank" class="w3-button w3-padding-large w3-dark-grey"
+style="width:98.5%">Button 2</a> -->
+</div>
+</div>
+</div>
+</div>
+<div class="w3-container w3-padding-16 w3-card" style="background-color:#eee">
+<h3 class="w3-center">2.「成績教えて」 by Iさん</h3>
+<div class="w3-content" style="max-width:800px"><h4>教えねーよ。</h4>
+<!-- <img src="img_temp_blog.jpg" style="width:98%;margin:20px 0" alt="ALT-TEXT"> --><br>
+<div class="w3-row">
+<div class="w3-col m6">
+<!-- <a href="" target="_blank" class="w3-button w3-padding-large w3-dark-grey"
+
+style="width:98.5%">Button 1</a> -->
+</div>
+<div class="w3-col m6">
+<!-- <a href="" target="_blank" class="w3-button w3-padding-large w3-dark-grey"
+style="width:98.5%">Button 2</a> -->
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="w3-container w3-theme" style="padding:32px">
+<p>リンク集 : <a href="" target="_blank" class="w3-button w3-padding-large w3-dark-grey"
+style="width:20%">Github</a> - 世界最大レポジトリーサーバー</p><br><p>NeoBlueL1ght</p>
+</footer>
+</div>
+<script>
+// Open and close the sidebar on medium and small screens
+function w3_open() {
+document.getElementById("mySidebar").style.display = "block";
+document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+document.getElementById("mySidebar").style.display = "none";
+document.getElementById("myOverlay").style.display = "none";
+}
+// Change style of top container on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+document.getElementById("myTop").classList.add("w3-card-4", "w3-animate-opacity");
+document.getElementById("myIntro").classList.add("w3-show-inline-block");
+} else {
+document.getElementById("myIntro").classList.remove("w3-show-inline-block");
+document.getElementById("myTop").classList.remove("w3-card-4", "w3-animate-opacity");
+}
+}
+
+// Accordions
+function myAccordion(id) {
+var x = document.getElementById(id);
+if (x.className.indexOf("w3-show") == -1) {
+x.className += " w3-show";
+x.previousElementSibling.className += " w3-theme";
+} else {
+x.className = x.className.replace("w3-show", "");
+x.previousElementSibling.className =
+x.previousElementSibling.className.replace(" w3-theme", "");
+}
+}
+</script>
+</body>
+</html>
